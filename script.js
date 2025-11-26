@@ -179,3 +179,29 @@ window.addEventListener('resize',
 
 init();
 animate();
+
+// 6. Contact Form Handler
+const contactForm = document.getElementById('contactForm');
+
+if (contactForm) {
+    contactForm.addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        const name = document.getElementById('name').value;
+        const contact = document.getElementById('contact').value;
+        const organization = document.getElementById('organization').value;
+        const subject = document.getElementById('subject').value;
+        const message = document.getElementById('message').value;
+
+        const emailBody = `Nombre: ${name}
+Contacto: ${contact}
+Organización: ${organization}
+
+Mensaje:
+${message}`;
+
+        const mailtoLink = `mailto:javipiazza94@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(emailBody)}`;
+
+        window.location.href = mailtoLink;
+    });
+}
