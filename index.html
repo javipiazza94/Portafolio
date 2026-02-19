@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Javier Puente Piazza — Data Scientist, Desarrollador DAM y Consultor SAP. Portfolio profesional con proyectos de Machine Learning, Power BI y desarrollo de software.">
+    <title>Javier Puente Piazza | Data Scientist &amp; Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Inter:wght@300;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <canvas id="canvas-network"></canvas>
+
+    <nav>
+        <div class="logo">&lt;JPP /&gt;</div>
+        <div class="menu-toggle" id="mobile-menu" aria-label="Abrir menú de navegación">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="nav-list" id="nav-list">
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#about">Perfil</a></li>
+            <li><a href="#skills">Stack</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <header id="home">
+        <div class="hero-content">
+            <p class="terminal-text">user: jav_puente $ ./iniciar_sistema.sh --verbose</p>
+            <h1>Javier Puente Piazza</h1>
+            <h2><span id="typewriter"></span><span class="cursor">|</span></h2>
+            <p class="hero-desc">Transformo datos complejos en estrategias de negocio tangibles. Especialista en la
+                convergencia entre Ciencia de Datos, Arquitectura de Software y Ecosistemas SAP.</p>
+            <div class="hero-btns">
+                <a href="#contact" class="btn">Contactar Ahora</a>
+                <a href="#projects" class="btn btn-outline">Ver Portfolio</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sobre Mí -->
+    <section id="about" class="container reveal">
+        <div class="section-title">
+            <h2>01. Sobre Mí</h2>
+        </div>
+        <div class="about-grid">
+            <div class="about-text">
+                <p>
+                    Más que un desarrollador, soy un <strong>arquitecto de soluciones híbridas</strong>. Mi formación en
+                    <strong>DAM</strong> me da la estructura técnica, mientras que mi especialización en <strong>Data
+                        Science</strong> y <strong>SAP</strong> me permite entender y potenciar el núcleo del negocio.
+                </p>
+                <p>
+                    No solo construyo modelos predictivos; diseño sistemas integrales que escalan. Desde la extracción
+                    cruda del dato hasta su visualización estratégica en Power BI o su integración operativa en SAP
+                    S/4HANA. Mi objetivo es claro: <strong>convertir información en ventaja competitiva</strong>.
+                </p>
+            </div>
+            <div class="about-stats">
+                <div class="stat-card">
+                    <i class="fas fa-database"></i>
+                    <h3>Data Centric</h3>
+                    <p>Análisis &amp; Estrategia</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-code-branch"></i>
+                    <h3>DevOps &amp; Arch</h3>
+                    <p>Soluciones Robustas</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-briefcase"></i>
+                    <h3>SAP Ecosystem</h3>
+                    <p>Integración Enterprise</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formación Académica -->
+    <section id="formation" class="container reveal">
+        <div class="section-title">
+            <h2>02. Formación Académica</h2>
+        </div>
+        <div class="project-grid">
+
+            <div class="project-card" style="border-top: 2px solid #64ffda;">
+                <div class="card-header">
+                    <i class="fas fa-graduation-cap"></i>
+                    <div class="links">
+                        <a href="https://www.cursosapoficial.com/master-sap-public-cloud/" target="_blank"
+                            rel="noopener">
+                            <span style="color: #64ffda; font-family: 'Roboto Mono'; font-size: 0.8rem;">En curso</span>
+                        </a>
+                    </div>
+                </div>
+                <h3>Máster SAP S/4HANA Public Cloud</h3>
+                <p style="margin-bottom: 5px; color: #e6f1ff;"><strong>Teknus/Inetum | Sevilla</strong></p>
+                <p>Especialización en consultoría funcional y procesos de negocio Cloud. Dominio de metodología
+                    <strong>SAP Activate</strong>, talleres Fit-to-Standard y experiencia de usuario con Fiori.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <div class="card-header">
+                    <i class="fas fa-laptop-code"></i>
+                    <div class="links">
+                        <a href="https://medac.es/grado-superior/dam-grado-superior-desarrollo-de-aplicaciones-multiplataforma"
+                            target="_blank" rel="noopener">
+                            <span
+                                style="color: #64ffda; font-family: 'Roboto Mono'; font-size: 0.8rem;">Finalizado</span>
+                        </a>
+                    </div>
+                </div>
+                <h3>Técnico Superior en Desarrollo de Aplicaciones Multiplataforma</h3>
+                <p style="margin-bottom: 5px; color: #e6f1ff;"><strong>MEDAC | Sevilla Este</strong></p>
+                <p>Formación técnica intensiva en arquitectura de software, bases de datos relacionales y programación
+                    orientada a objetos.</p>
+            </div>
+
+            <div class="project-card">
+                <div class="card-header">
+                    <i class="fas fa-chart-line"></i>
+                    <div class="links">
+                        <a href="https://thebridge.tech/bootcamps/data-science/" target="_blank" rel="noopener">
+                            <span
+                                style="color: #64ffda; font-family: 'Roboto Mono'; font-size: 0.8rem;">Finalizado</span>
+                        </a>
+                    </div>
+                </div>
+                <h3>Bootcamp en Data Science</h3>
+                <p style="margin-bottom: 5px; color: #e6f1ff;"><strong>The Bridge | Sevilla</strong></p>
+                <p>Profundización en algoritmos de Machine Learning, estadística aplicada y visualización de datos
+                    complejos para negocio.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Tech Stack -->
+    <section id="skills" class="container reveal">
+        <div class="section-title">
+            <h2>03. Tech Stack</h2>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3><i class="fas fa-brain"></i> Data Science</h3>
+                <div class="skill-list">
+                    <span>Python</span>
+                    <span>Pandas/NumPy</span>
+                    <span>Scikit-Learn</span>
+                    <span>SQL (Advanced)</span>
+                    <span>Power BI / DAX</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3><i class="fas fa-building"></i> SAP Ecosystem</h3>
+                <div class="skill-list">
+                    <span>SAP S/4HANA</span>
+                    <span>SAP Public Cloud</span>
+                    <span>SAP FI/CO / MM</span>
+                    <span>ABAP (Basics)</span>
+                    <span>Fiori UX</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3><i class="fas fa-laptop-code"></i> Engineering</h3>
+                <div class="skill-list">
+                    <span>Java / Spring</span>
+                    <span>Git / CI/CD</span>
+                    <span>Docker</span>
+                    <span>C# .NET</span>
+                    <span>Linux / Bash</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyectos Destacados -->
+    <section id="projects" class="container reveal">
+        <div class="section-title">
+            <h2>04. Proyectos Destacados</h2>
+        </div>
+        <div class="project-grid">
+
+            <!-- Power BI Dashboard -->
+            <div class="project-card">
+                <div class="card-header">
+                    <i class="far fa-folder-open"></i>
+                    <div class="links">
+                        <a href="https://app.powerbi.com/groups/me/reports/5300ab97-e656-4e8f-a820-df16e0972b56/1b46f0cc4bccb9204a68?experience=power-bi"
+                            target="_blank" rel="noopener" aria-label="Ver Proyecto"><i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <h3>Dashboard Analytics en Power BI: Proyecto SANO Y FRESCO</h3>
+                <p>Solución de Business Intelligence end-to-end. Extracción de datos históricos (SQL/Excel), modelado de
+                    datos y creación de un dashboard interactivo en Power BI para optimizar la toma de decisiones de
+                    inventario y ventas.</p>
+                <ul class="tech-tags">
+                    <li>Power BI</li>
+                    <li>SQL Server</li>
+                    <li>DAX</li>
+                    <li>ETL</li>
+                </ul>
+            </div>
+
+            <!-- World Population Analysis -->
+            <div class="project-card">
+                <div class="card-header">
+                    <i class="far fa-folder-open"></i>
+                    <div class="links">
+                        <a href="https://github.com/javipiazza94/World_Pop_Analysis" target="_blank" rel="noopener"
+                            aria-label="Ver Código"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <h3>World Population Analysis</h3>
+                <p>Análisis exploratorio de datos demográficos mundiales. Incluye una visualización exhaustiva de datos
+                    mediante Streamlit y uso de un modelo de regresión lineal con Scikit-Learn.</p>
+                <ul class="tech-tags">
+                    <li>Python</li>
+                    <li>Scikit-Learn</li>
+                    <li>Streamlit</li>
+                    <li>Plotly</li>
+                </ul>
+            </div>
+
+            <!-- Webscraping Projects -->
+            <div class="project-card">
+                <div class="card-header">
+                    <i class="far fa-folder-open"></i>
+                    <div class="links">
+                        <a href="https://github.com/javipiazza94/Web_Scraping_CSharp" target="_blank" rel="noopener"
+                            aria-label="Ver Código"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <h3>Webscraping Projects</h3>
+                <p>Diferentes y pequeños proyectos de scrapeo usando C# y Selenium, con una base de métodos
+                    profesionales de mi etapa en AQR Systems y cheatsheets.</p>
+                <ul class="tech-tags">
+                    <li>C#</li>
+                    <li>Selenium</li>
+                    <li>HTML y CSS</li>
+                    <li>Python</li>
+                </ul>
+            </div>
+
+            <!-- ATP Tennis Data Analysis -->
+            <div class="project-card">
+                <div class="card-header">
+                    <i class="far fa-folder-open"></i>
+                    <div class="links">
+                        <a href="https://github.com/javipiazza94/ATP_Tennis_Data_Analysis" target="_blank"
+                            rel="noopener" aria-label="Ver Código"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <h3>ATP Tennis Data Analysis</h3>
+                <p>Mi principal proyecto individual del Bootcamp de Data Science. Consiste en predecir resultados de
+                    partidos de tenis de la ATP entre 2021 y 2024,
+                    a través de modelos predictivos de Machine Learning que emplean datos ya limpios y analizados
+                    previamente.</p>
+                <ul class="tech-tags">
+                    <li>Python</li>
+                    <li>Machine Learning</li>
+                    <li>Scikit-Learn</li>
+                    <li>EDA</li>
+                </ul>
+            </div>
+
+            <!-- Stock Market Dashboard -->
+            <div class="project-card">
+                <div class="card-header">
+                    <i class="far fa-folder-open"></i>
+                    <div class="links">
+                        <a href="https://github.com/javipiazza94/Stock-Market-Dashboard" target="_blank" rel="noopener"
+                            aria-label="Ver Código"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <h3>Stock and Assets Market Dashboard</h3>
+                <p>Visualizador de la cotización de las principales empresas del SP500, DAX alemán y IBEX 35. También
+                    incluye gráficas y búsquedas de activos
+                    personalizados como el Oro, Bitcoin o Petróleo.</p>
+                <ul class="tech-tags">
+                    <li>Python</li>
+                    <li>Flask</li>
+                    <li>SQL</li>
+                    <li>Javascript</li>
+                </ul>
+            </div>
+
+            <!-- Prototipo CBDC -->
+            <div class="project-card">
+                <div class="card-header">
+                    <i class="far fa-folder-open"></i>
+                    <div class="links">
+                        <a href="https://github.com/javipiazza94/PROYECTO_CBDC" target="_blank" rel="noopener"
+                            aria-label="Ver Código"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <h3>Prototipo de CBDC</h3>
+                <p>Prototipo funcional de una Central Bank Digital Currency (CBDC) implementado en Java.
+                    Permite simular la emisión, distribución y gestión de dinero digital por un Banco Central, con
+                    cuentas bancarias conectadas en tiempo real.</p>
+                <ul class="tech-tags">
+                    <li>Java 17</li>
+                    <li>Maven</li>
+                    <li>SQLite</li>
+                    <li>GSON</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contact" class="container reveal">
+        <div class="contact-box">
+            <h2>¿Hablamos de Datos?</h2>
+            <p>Estoy buscando activamente oportunidades para aportar valor en proyectos desafiantes. Si tienes una
+                propuesta o simplemente quieres conectar, mi bandeja de entrada está abierta.</p>
+
+            <form id="contactForm" class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Nombre" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="contact" name="contact" placeholder="Contacto (Email / Teléfono)" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="organization" name="organization" placeholder="Organización / Empresa">
+                </div>
+                <div class="form-group">
+                    <input type="text" id="subject" name="subject" placeholder="Asunto" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" rows="5" placeholder="Mensaje" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-submit">Enviar Mensaje</button>
+                <p id="formFeedback" class="form-feedback"></p>
+            </form>
+
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/javier-puente-piazza-programador-data-scientist/" target="_blank"
+                    rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/javipiazza94" target="_blank" rel="noopener" aria-label="GitHub"><i
+                        class="fab fa-github"></i></a>
+                <a href="mailto:javipiazza94@email.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Diseñado y desarrollado por <span style="color: var(--accent);">Javier Puente Piazza</span></p>
+        <p style="margin-top: 5px; font-size: 0.75rem;">© 2026 — Hecho con
+            <i class="fas fa-code" style="color: var(--accent);"></i> y
+            <i class="fas fa-coffee" style="color: var(--accent);"></i>
+        </p>
+    </footer>
+
+    <a href="#" class="back-to-top" id="backToTop" aria-label="Volver arriba">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
